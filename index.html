@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>お問い合わせフォーム（サンプル）</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="alert alert-primary text-center mt-3" role="alert">
+          お問い合わせフォーム（サンプル）
+        </div>
+      </div>
+    </header>
+    
+    <hr>
+
+    <section class="container">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">メールアドレス<span class="badge badge-danger">必須</span></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="例） yMa@sample.com">
+          <small id="emailHelp" class="form-text text-muted">メールアドレスをご記入ください。</small>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">パスワード<span class="badge badge-danger">必須</span></label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="パスワード">
+        </div>
+
+        <div>
+          <p>お問い合わせ内容（複数回答可）</p>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">HTML</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">css</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+            <label class="form-check-label" for="exampleCheck3">JavaScript</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+            <label class="form-check-label" for="exampleCheck4">jQuery</label>
+          </div>
+        </div>
+        
+        <p>メルマガ配信について</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            希望する
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            希望しない
+          </label>
+        </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">送信する</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <footer>
+      <div class="text-center">
+        &copy; yMa-designrom
+      </div>
+    </footer>
+  </body>
+</html>
