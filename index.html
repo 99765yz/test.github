@@ -5,80 +5,103 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
-    <title>お問い合わせフォーム（サンプル）</title>
+    <title>webデザイン yoshitakayamamoto.com</title>
+    <link rel="shortcut icon" href="img/mauntain.png" type="image/png">
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="alert alert-primary text-center mt-3" role="alert">
-          お問い合わせフォーム（サンプル）
-        </div>
-      </div>
-    </header>
-    
-    <hr>
+        <ul class="headerMenu">
+          <li class="home">
+            <i class="fas fa-home"></i>
+          </li><!-- home -->
+          <li>
+            <a class="navbar" href="index.html">Top</a>
+          </li>
+        </ul><!-- header-menu -->
 
-    <section class="container">
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">メールアドレス<span class="badge badge-danger">必須</span></label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="例） yMa@sample.com">
-          <small id="emailHelp" class="form-text text-muted">メールアドレスをご記入ください。</small>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleInputPassword1">パスワード<span class="badge badge-danger">必須</span></label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="パスワード">
-        </div>
-
-        <div>
-          <p>お問い合わせ内容（複数回答可）</p>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">HTML</label>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck2">
-            <label class="form-check-label" for="exampleCheck2">css</label>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck3">
-            <label class="form-check-label" for="exampleCheck3">JavaScript</label>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck4">
-            <label class="form-check-label" for="exampleCheck4">jQuery</label>
-          </div>
-        </div>
         
-        <p>メルマガ配信について</p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            希望する
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-          <label class="form-check-label" for="exampleRadios2">
-            希望しない
-          </label>
-        </div>
-        </div>
+    </header>
 
-        <button type="submit" class="btn btn-primary mt-3">送信する</button>
-      </form>
-    </section>
+    <main>
+      <div class="sticky"><!-- スティッキー（追従要素） -->
+        <ul class="profMenu">
+          <li>webデザイン</li>
+          <li>yoshitakayamamoto</li>
+        </ul>
+      </div>
 
-    <hr>
+      <div class="wrap">
+        <div class="wrapTitle">
+          <figure class="titleImg">
+            <img src="img/プログラムアイコン.png" alt="プログラムアイコン" width="100px" height="auto">
+          </figure> <!-- titleImg -->
+          <h1 class="menu main"><span>web</span>デザイン</h1>
+          <h2 class="menu sub">yoshitaka<br>yamamoto</h2>
+        </div>  <!-- wrapTitle -->
+
+        <div class="web">
+          <ul class="webDesign">
+            <li>HTML/</li>
+            <li>css/</li>
+            <li>JavaScript/</li>
+            <li>jQuery/</li>
+            <li>WordPress/</li>
+            <li>Photoshop/</li>
+            <li>Illustrator</li>
+          </ul><!-- webDesign -->
+        </div><!-- web -->
+      </div><!-- wrap -->
+
+      <div class="info">
+        <h1>PROFILE</h1>
+        <p>フリーランスを目指しているwebデザイナーです。お客様に寄り添い、サイト制作するうえでの目的をはっきりさせた制作を心がけます。制作方針はもちろん、ターゲットユーザーの心をつかむようなサイト制作をしていきたいので、Adobeツールも積極的に活用し、ご要望に沿ったデザインを取り入れていきます。既にご要望のデザインやロゴをお持ちの場合は、忠実に模写していきます。主となるコーディングでは、重要ポイントをしっかりとらえることで、最適なデザイン・レイアウトを生み出します。また、時代の流れに合わせたレシポシブコーディングにも対応しています。ご要望のデザインやレイアウトを再現するためにも、模写コーディング等で日々スキルアップを図っていますので、フレキシブルな対応をしてきたいと思います。webデザインに対する質問もぜひお気軽にお問い合わせください。</p>
+      </div>
+      
+      <ul class="bs">
+        <h1>PROJECT</h1>
+        <button class="bsImg lp"><a class="bsLink" href="#">LP</a></button>
+        <p>LP制作を承ります。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <button class="bsImg cs"><a class="bsLink" href="#">C</a></button>
+        <p>コーポレートサイト制作を承ります。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <button class="bsImg blog"><a class="bsLink " href="#">B</a></button>
+        <p>ブログ制作を承ります。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </ul>
+    </main>
 
     <footer>
-      <div class="text-center">
-        &copy; yMa-designrom
+      <div class="sns">
+        <ul class="sns-wrap">
+          <!-- twitter icon -->
+          <li class="sns-icon">
+            <a class="snsLink" href="#"><i class="fab fa-twitter fa-3x"></i></a>
+          </li>
+          <!-- instagram icon -->
+          <li class="sns-icon">
+            <a class="snsLink" href="#"><i class="fab fa-instagram fa-3x"></i></a>
+          </li>
+          <!-- facebook icon -->
+          <li class="sns-icon">
+            <a class="snsLink" href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contactWrap">
+        <button class="contact"><a class="contactLink" href="https://ymadesignroom.com/contact/">Contact</a></button>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('html').hide();
+        $('html').fadeIn(2000);
+
+
+      });
+    </script>
   </body>
 </html>
